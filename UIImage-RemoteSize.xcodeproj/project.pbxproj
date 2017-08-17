@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A296F6991B09847500D002EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A296F6981B09847500D002EE /* main.m */; };
+		A296F69C1B09847500D002EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A296F69B1B09847500D002EE /* AppDelegate.m */; };
+		A296F6A41B09847500D002EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A296F6A31B09847500D002EE /* Images.xcassets */; };
+		A296F6A71B09847500D002EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A296F6A51B09847500D002EE /* LaunchScreen.xib */; };
+		A296F6BF1B09849900D002EE /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = A296F6BE1B09849900D002EE /* UIImage+RemoteSize.m */; };
+		A296F6C31B0984DA00D002EE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A296F6C11B0984DA00D002EE /* RootViewController.m */; };
+		A296F6C41B0984DA00D002EE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A296F6C21B0984DA00D002EE /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A296F6931B09847500D002EE /* UIImage-RemoteSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIImage-RemoteSize.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A296F6971B09847500D002EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A296F6981B09847500D002EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A296F69A1B09847500D002EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A296F69B1B09847500D002EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A296F6A31B09847500D002EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A296F6A61B09847500D002EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A296F6BD1B09849900D002EE /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
+		A296F6BE1B09849900D002EE /* UIImage+RemoteSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RemoteSize.m"; sourceTree = "<group>"; };
+		A296F6C01B0984DA00D002EE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A296F6C11B0984DA00D002EE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A296F6C21B0984DA00D002EE /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A296F6901B09847500D002EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A296F68A1B09847500D002EE = {
+			isa = PBXGroup;
+			children = (
+				A296F6951B09847500D002EE /* UIImage-RemoteSize */,
+				A296F6941B09847500D002EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A296F6941B09847500D002EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A296F6931B09847500D002EE /* UIImage-RemoteSize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A296F6951B09847500D002EE /* UIImage-RemoteSize */ = {
+			isa = PBXGroup;
+			children = (
+				A296F6BC1B09848600D002EE /* UIImage+RemoteSize */,
+				A296F69A1B09847500D002EE /* AppDelegate.h */,
+				A296F69B1B09847500D002EE /* AppDelegate.m */,
+				A296F6C01B0984DA00D002EE /* RootViewController.h */,
+				A296F6C11B0984DA00D002EE /* RootViewController.m */,
+				A296F6C21B0984DA00D002EE /* RootViewController.xib */,
+				A296F6A31B09847500D002EE /* Images.xcassets */,
+				A296F6A51B09847500D002EE /* LaunchScreen.xib */,
+				A296F6961B09847500D002EE /* Supporting Files */,
+			);
+			path = "UIImage-RemoteSize";
+			sourceTree = "<group>";
+		};
+		A296F6961B09847500D002EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A296F6971B09847500D002EE /* Info.plist */,
+				A296F6981B09847500D002EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A296F6BC1B09848600D002EE /* UIImage+RemoteSize */ = {
+			isa = PBXGroup;
+			children = (
+				A296F6BD1B09849900D002EE /* UIImage+RemoteSize.h */,
+				A296F6BE1B09849900D002EE /* UIImage+RemoteSize.m */,
+			);
+			path = "UIImage+RemoteSize";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A296F6921B09847500D002EE /* UIImage-RemoteSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A296F6B61B09847600D002EE /* Build configuration list for PBXNativeTarget "UIImage-RemoteSize" */;
+			buildPhases = (
+				A296F68F1B09847500D002EE /* Sources */,
+				A296F6901B09847500D002EE /* Frameworks */,
+				A296F6911B09847500D002EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIImage-RemoteSize";
+			productName = "UIImage-RemoteSize";
+			productReference = A296F6931B09847500D002EE /* UIImage-RemoteSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A296F68B1B09847500D002EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					A296F6921B09847500D002EE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = A296F68E1B09847500D002EE /* Build configuration list for PBXProject "UIImage-RemoteSize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A296F68A1B09847500D002EE;
+			productRefGroup = A296F6941B09847500D002EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A296F6921B09847500D002EE /* UIImage-RemoteSize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A296F6911B09847500D002EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A296F6A71B09847500D002EE /* LaunchScreen.xib in Resources */,
+				A296F6A41B09847500D002EE /* Images.xcassets in Resources */,
+				A296F6C41B0984DA00D002EE /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A296F68F1B09847500D002EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A296F69C1B09847500D002EE /* AppDelegate.m in Sources */,
+				A296F6BF1B09849900D002EE /* UIImage+RemoteSize.m in Sources */,
+				A296F6C31B0984DA00D002EE /* RootViewController.m in Sources */,
+				A296F6991B09847500D002EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A296F6A51B09847500D002EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A296F6A61B09847500D002EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A296F6B41B09847600D002EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A296F6B51B09847600D002EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A296F6B71B09847600D002EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImage-RemoteSize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A296F6B81B09847600D002EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIImage-RemoteSize/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A296F68E1B09847500D002EE /* Build configuration list for PBXProject "UIImage-RemoteSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A296F6B41B09847600D002EE /* Debug */,
+				A296F6B51B09847600D002EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A296F6B61B09847600D002EE /* Build configuration list for PBXNativeTarget "UIImage-RemoteSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A296F6B71B09847600D002EE /* Debug */,
+				A296F6B81B09847600D002EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A296F68B1B09847500D002EE /* Project object */;
+}
